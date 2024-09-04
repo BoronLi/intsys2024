@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Sep  3 10:47:53 2024
+# Process ID: 27184
+# Current directory: D:/SSStudyresouces/IntelligentSystems/fpga/vivado/Lab_5/Lab_5.runs/synth_1
+# Command line: vivado.exe -log StudentID.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source StudentID.tcl
+# Log file: D:/SSStudyresouces/IntelligentSystems/fpga/vivado/Lab_5/Lab_5.runs/synth_1/StudentID.vds
+# Journal file: D:/SSStudyresouces/IntelligentSystems/fpga/vivado/Lab_5/Lab_5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source StudentID.tcl -notrace

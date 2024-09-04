@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../code/Lab_2/add4bit.v" \
+"../../../../../../code/Lab_2/mul4bit.v" \
+"../../../../../../code/Lab_2/mux4bit_2_1.v" \
+"../../../../../../code/Lab_2/mux4bit_4_1.v" \
+"../../../../../../code/Lab_2/mux8bit_2_1.v" \
+"../../../../../../code/Lab_2/sub4bit.v" \
+"../../../../../../code/Lab_2/ALU4bit.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

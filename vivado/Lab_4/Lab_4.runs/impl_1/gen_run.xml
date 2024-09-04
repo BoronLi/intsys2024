@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1725326302">
+  <File Type="PWROPT-DCP" Name="E_lock_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="E_lock_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="E_lock.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="E_lock_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="E_lock_reports.tcl"/>
+  <File Type="BG-DRC" Name="E_lock.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="E_lock_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="E_lock_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="E_lock.hwdef"/>
+  <File Type="OPT-DCP" Name="E_lock_opt.dcp"/>
+  <File Type="OPT-DRC" Name="E_lock_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="E_lock_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="E_lock_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="E_lock_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="E_lock_placed.dcp"/>
+  <File Type="PLACE-IO" Name="E_lock_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="E_lock_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="E_lock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="E_lock_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="E_lock_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="E_lock_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="E_lock_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="E_lock_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="E_lock_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="E_lock_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="E_lock_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="E_lock_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="E_lock.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="E_lock_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="E_lock_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="E_lock_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="E_lock_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="E_lock_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="E_lock_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="E_lock.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="E_lock_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="E_lock.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="E_lock_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="E_lock.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="E_lock_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="E_lock.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="E_lock_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="E_lock_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="E_lock_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="E_lock_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="E_lock_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="E_lock_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="E_lock_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="E_lock_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="E_lock.vdi"/>
+  <File Type="ROUTE-CLK" Name="E_lock_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="E_lock_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="E_lock_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="E_lock_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="E_lock_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="E_lock_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="E_lock.nky"/>
+  <File Type="BITSTR-BMM" Name="E_lock_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="E_lock.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="E_lock.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="E_lock.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../code/Lab_4/FSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/button_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/control_button.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/counter_n.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/dffr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/diner.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/dorcodor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../code/Lab_4/E_lock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="E_lock"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/fsm.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/fsm.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

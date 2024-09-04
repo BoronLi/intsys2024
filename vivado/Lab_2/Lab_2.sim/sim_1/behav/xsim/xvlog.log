@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/add4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/mul4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/mux4bit_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4bit_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/mux4bit_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4bit_4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/mux8bit_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8bit_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/sub4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/ALU4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu4bit
+WARNING: [VRFC 10-2369] data object number1 is already declared [D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/ALU4bit.v:18]
+ERROR: [VRFC 10-1350] second declaration of number1 ignored [D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/ALU4bit.v:18]
+INFO: [VRFC 10-2458] undeclared symbol mux3out, assumed default net type wire [D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/ALU4bit.v:39]
+ERROR: [VRFC 10-1040] module alu4bit ignored due to previous errors [D:/SSStudyresouces/IntelligentSystems/fpga/code/Lab_2/ALU4bit.v:11]
