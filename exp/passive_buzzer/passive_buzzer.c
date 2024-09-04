@@ -9,7 +9,7 @@
 #include <softTone.h>
 #include <stdio.h>
 
-#define makerobo_BuzPin    0 // 有源蜂鸣器管脚定义
+#define makerobo_BuzPin    24 // 有源蜂鸣器管脚定义
 
 // 音谱定义
 // 低C音符的频率

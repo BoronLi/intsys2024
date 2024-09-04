@@ -10,8 +10,8 @@
 #include <stdio.h>
 #include <sys/time.h>
 
-#define makerobo_Trig    0   // 超声波模块Tring控制管脚
-#define makerobo_Echo    1   // 超声波模块Echo控制管脚
+#define makerobo_Trig    28   // 超声波模块Tring控制管脚
+#define makerobo_Echo    29   // 超声波模块Echo控制管脚
 
 // 超声波模块初始化工作
 void makerobo_ultraInit(void)

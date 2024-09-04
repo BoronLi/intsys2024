@@ -12,9 +12,9 @@
 
 #define uchar unsigned char
 
-#define makerobo_Led_PinRed    0 // 红色LED 管脚
-#define makerobo_Led_PinGreen  1 // 绿色LED 管脚
-#define makerobo_Led_PinBlue   2 // 蓝色LED 管脚
+#define makerobo_Led_PinRed    21 // 红色LED 管脚
+#define makerobo_Led_PinGreen  22 // 绿色LED 管脚
+#define makerobo_Led_PinBlue   23 // 蓝色LED 管脚
 
 // LED 初始化
 void makerobo_led_Init(void)

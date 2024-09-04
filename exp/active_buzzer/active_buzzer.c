@@ -8,7 +8,7 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define makerobo_BuzzerPin      0  // 有源蜂鸣器管脚定义
+#define makerobo_BuzzerPin      25  // 有源蜂鸣器管脚定义
 
 int main(void)
 {

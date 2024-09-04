@@ -8,7 +8,7 @@ typedef unsigned long uint32;
  
 #define HIGH_TIME 32
  
-int pinNumber = 0;
+int pinNumber = 27;
 uint32 databuf;
   
 uint8 readSensorData(void)
